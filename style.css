@@ -25,7 +25,7 @@ name {
 }
 
 #wrapper {
-	border-width: 1px; border-style: solid; border-color: white; margin: 5px auto; width: 830px; text-align: center; position: relative;
+	border-width: 1px; border-style: solid; border-color: white; margin: 5px auto; width: 950px; text-align: center; position: relative;
 }
 
 #content-wrap {
@@ -82,19 +82,27 @@ a.back-to-top {
 
 .navbar {
     overflow: hidden;
-    background-color: #de507f;
-    width: 830px; text-align: center; position: relative;margin: 5px auto;
+    background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+    width: 950px; text-align: center; position: relative;margin: 5px auto;
 }
  
 
 .navbar a {
     float: left;
     display: block;
-    color: white;
+    color: #666;
     text-align: center;
     padding: 10px 30px;
     text-decoration: none;
 }
+
+.navbar a:hover:not(.active) {
+	color: white;
+	background-color: #ddd;
+  }
+
+
 .img-display {
     display : block;
 }
