@@ -22,6 +22,17 @@ img.float-right {
 	border-radius: 50%;
   } 
 
+#grouplogo{
+	padding: 0.5px;
+	padding-left: 50px;
+	border: 0px solid rgb(252, 252, 252);
+}
+
+#member{
+	padding-left: 20px;
+	border: 0px solid rgb(252, 252, 252);
+}
+
 name {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -144,3 +155,35 @@ background: #ccc;
 ::-webkit-scrollbar-thumb:hover {
 background: #999;  
 }
+
+/* Columns side by side */
+.column {
+	float: left;
+	width: 25%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+	.column {
+	  width: 100%;
+	  display: block;
+	}
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .title {
+	color: grey;
+	padding-left: 30px;
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+	padding: 0 45px;
+  }
+  
