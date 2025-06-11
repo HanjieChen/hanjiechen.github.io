@@ -293,11 +293,3 @@ background: #999;
 	height: 3px; /* Adjust the height of the line */
 	background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Multicolor gradient */
 }
-
-.fa.fa-twitter{
-	font-family:sans-serif;
-}
-.fa.fa-twitter::before{
-	content:"𝕏";
-	font-size:1.2em;
-}
