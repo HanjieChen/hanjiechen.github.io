@@ -131,7 +131,7 @@ margin-bottom: 200%;
 border: none;
 padding: 5px;
 font: 16px/28px sans-serif;
-height: 260px;
+height: 280px;
 overflow: scroll;
 overflow-x: hidden;
 }
@@ -140,7 +140,7 @@ overflow-x: hidden;
 	border: none;
 	padding: 5px;
 	font: 8px/20px sans-serif;
-	height: 235px;
+	height: 250px;
 	overflow: scroll;
 	overflow-x: hidden;
 	}
