@@ -138,9 +138,10 @@ overflow-x: hidden;
 
 .myBox1 {
 	border: none;
-	padding: 5px;
+	padding: 15px;
 	font: 8px/20px sans-serif;
-	height: 255px;
+  font-size: 0.5px;
+	height: 235px;
 	overflow: scroll;
 	overflow-x: hidden;
 	}
@@ -168,14 +169,14 @@ background: #999;
 /* Columns side by side */
 .column {
 	float: left;
-	width: 25%;
+	width: 22%;
 	margin-bottom: 16px;
 	padding: 0 8px;
   }
 
   .news {
 	background-color:#9b5db70f;
-	width: 290%;
+	width: 335%;
   }
   
   /* Display the columns below each other instead of side by side on small screens */
@@ -198,7 +199,7 @@ background: #999;
   
   /* Some left and right padding inside the container */
   .container {
-	padding: 0 45px;
+	padding: 0 10px;
   }
 
 
